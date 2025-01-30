@@ -26,3 +26,5 @@ git merge <nome da branch que sera integrada na main>: adiciona na branch main a
 
 pull: recebe modificações da origin
 push: envia modificações para origin
+
+teste
