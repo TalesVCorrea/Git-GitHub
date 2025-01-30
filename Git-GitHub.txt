@@ -1,0 +1,28 @@
+Git: Software para gerenciamento de versão de arquivos de texto no computador
+Commit: Checkpoint
+Branch: Cópia do projeto principal
+
+pwd: indica o diretório atual
+ls / ls -a: informações do diretório atual
+cd: alternar entre diretórios
+
+git init .: inicia o git no diretório atual
+rm rf .git/: remove o git do diretório atual
+git status: status
+git diff <nome do arquivo>: mostra as alterações do arquivo
+git add . / <nome do arquivo>: adicionar os arquivos que serão commitados
+git reset <nome do arquivo>: tira o arquivo staged
+git commit -m "texto do commit": commit
+git reset --soft HEAD~1: apaga o último commit e mantém as alterações em staged
+git reset --mixed HEAD~1: apaga o último commit e mantém o arquivo no diretório sem o staged
+git reset --hard HEAD~1: volta como estava no commit anterior
+
+git checkout -b <nome da branch>: cria uma branch
+git branch: lista as branch ativas e atual
+git branch -M main: renomeia o nome da branch
+git branch -d <nome da branch>: deleta 
+git checkout <nome da branch>: alterna entre as branch
+git merge <nome da branch que sera integrada na main>: adiciona na branch main as alterações da branch cópia
+
+pull: recebe modificações da origin
+push: envia modificações para origin
