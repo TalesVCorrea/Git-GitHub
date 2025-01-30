@@ -24,8 +24,6 @@ git branch -d <nome da branch>: deleta
 git checkout <nome da branch>: alterna entre as branch
 git merge <nome da branch que sera integrada na main>: adiciona na branch main as alterações da branch cópia
 
-pull: recebe modificações da origin
-push: envia modificações para origin
-
-teste
-teste2
+git pull -u origin main: primeiro pull
+git pull origin main: receber modificações da origin
+git push origin main: enviar modificações para origin
